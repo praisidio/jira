@@ -32,7 +32,7 @@ flaky==3.7.0
     # via -r test-requirements.in
 identify==2.2.4
     # via pre-commit
-idna==2.10
+idna==3.7
     # via requests
 iniconfig==1.1.1
     # via pytest
