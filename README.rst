@@ -37,6 +37,13 @@ As this is an open-source project that is community maintained, do not be surpri
 .. _BountySource: https://www.bountysource.com/teams/pycontribs/issues?tracker_ids=3650997
 
 
+## Upgrade dependencies
+
+Run the following command to upgrade the dependencies:
+```
+pip-compile --extra=cli,docs,opt,async --output-file=requirements.txt setup.cfg --upgrade
+```
+
 Quickstart
 ----------
 
